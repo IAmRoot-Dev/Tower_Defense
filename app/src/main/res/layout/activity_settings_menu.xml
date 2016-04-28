@@ -13,8 +13,8 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_music"
-        android:id="@+id/game_music_switch"
+        android:text="@string/switch_game_music"
+        android:id="@+id/switch_game_music"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="#ffffff"
@@ -26,24 +26,24 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_sound_effects"
-        android:id="@+id/game_sound_effects_switch"
+        android:text="@string/switch_game_sound_effects"
+        android:id="@+id/switch_game_sound_effects"
         android:background="#ffffff"
         android:checked="false"
         android:textSize="20sp"
-        android:layout_below="@+id/game_music_switch"
+        android:layout_below="@+id/switch_game_music"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/game_music_switch"
-        android:layout_alignEnd="@+id/game_music_switch"
+        android:layout_alignRight="@+id/switch_game_music"
+        android:layout_alignEnd="@+id/switch_game_music"
         android:layout_marginTop="15dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/guide"
-        android:id="@+id/guide_button"
-        android:layout_below="@+id/game_sound_effects_switch"
+        android:text="@string/button_guide"
+        android:id="@+id/button_guide"
+        android:layout_below="@+id/switch_game_sound_effects"
         android:layout_marginTop="15dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -55,22 +55,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/info"
-        android:id="@+id/info_button"
+        android:text="@string/button_about"
+        android:id="@+id/button_about"
         android:textSize="20sp"
-        android:layout_below="@+id/guide_button"
+        android:layout_below="@+id/button_guide"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/guide_button"
-        android:layout_alignEnd="@+id/guide_button"
+        android:layout_alignRight="@+id/button_guide"
+        android:layout_alignEnd="@+id/button_guide"
         android:layout_marginTop="15dp"
-        android:onClick="infoMain"/>
+        android:onClick="aboutMain"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/terms"
-        android:id="@+id/terms_button"
+        android:text="@string/button_terms"
+        android:id="@+id/button_terms"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -78,6 +78,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="15dp"
         android:textSize="20sp"
-        android:layout_below="@+id/info_button"
+        android:layout_below="@+id/button_about"
         android:onClick="termsMain"/>
+
 </RelativeLayout>

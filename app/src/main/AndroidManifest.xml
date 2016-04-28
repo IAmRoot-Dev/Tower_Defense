@@ -18,12 +18,11 @@
         <activity android:name=".PlayMenu" />
         <activity android:name=".SettingsMenu" />
         <activity android:name=".StoreMenu" />
-        <activity android:name=".CampainMenu" />
+        <activity android:name=".CampaignMenu" />
         <activity android:name=".ChallengesMenu" />
-        <activity android:name=".InfoMain" />
         <activity android:name=".GuideMain" />
         <activity android:name=".AboutMain" />
-        <activity android:name=".TermsMain"></activity>
+        <activity android:name=".TermsMain" />
     </application>
 
 </manifest>

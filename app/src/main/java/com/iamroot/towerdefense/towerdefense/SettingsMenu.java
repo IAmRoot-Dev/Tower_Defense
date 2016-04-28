@@ -11,9 +11,9 @@ public class SettingsMenu extends AppCompatActivity {
         Intent intent = new Intent(SettingsMenu.this, GuideMain.class);
         startActivity(intent);
     }
-    public void infoMain(View view)
+    public void aboutMain(View view)
     {
-        Intent intent = new Intent(SettingsMenu.this, InfoMain.class);
+        Intent intent = new Intent(SettingsMenu.this, AboutMain.class);
         startActivity(intent);
     }
     public void termsMain(View view) {
