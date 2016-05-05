@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.iamroot.towerdefense.towerdefense.SettingsMenu"
-    android:background="#000000">
+    android:background="#333333">
 
     <Switch
         android:layout_width="wrap_content"
@@ -50,7 +50,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="20sp"
-        android:onClick="guideMain"/>
+        android:onClick="guideMain"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_bg_9patch" />
 
     <Button
         android:layout_width="wrap_content"
@@ -59,12 +62,18 @@
         android:id="@+id/button_about"
         android:textSize="20sp"
         android:layout_below="@+id/button_guide"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/button_guide"
-        android:layout_alignEnd="@+id/button_guide"
         android:layout_marginTop="15dp"
-        android:onClick="aboutMain"/>
+        android:onClick="aboutMain"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_bg_9patch"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -79,6 +88,9 @@
         android:layout_marginTop="15dp"
         android:textSize="20sp"
         android:layout_below="@+id/button_about"
-        android:onClick="termsMain"/>
+        android:onClick="termsMain"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_bg_9patch" />
 
 </RelativeLayout>
