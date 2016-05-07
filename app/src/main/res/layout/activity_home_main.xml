@@ -9,26 +9,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.iamroot.towerdefense.towerdefense.MainActivity"
     android:id="@+id/playbtn"
-    android:background="#333333">
+    android:background="@drawable/standin_background">
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_play"
         android:id="@+id/button_play"
         android:textSize="20sp"
         android:onClick="playMenu"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:background="@drawable/btn_bg_9patch" />
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_bg_9patch"
+        android:layout_marginTop="150dp" />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_store"
         android:id="@+id/button_store"
         android:textSize="20sp"
@@ -36,15 +36,15 @@
         android:layout_below="@+id/button_play"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/btn_bg_9patch" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_settings"
         android:id="@+id/button_settings"
         android:textSize="20sp"
@@ -52,9 +52,9 @@
         android:layout_below="@+id/button_store"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/btn_bg_9patch" />
     />
 

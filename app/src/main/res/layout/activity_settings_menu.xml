@@ -8,10 +8,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.iamroot.towerdefense.towerdefense.SettingsMenu"
-    android:background="#333333">
+    android:background="@drawable/standin_background">
 
     <Switch
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_game_music"
         android:id="@+id/switch_game_music"
@@ -21,63 +21,73 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="86dp"
+        android:alpha="0.8"
+        android:textAlignment="center" />
 
     <Switch
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_game_sound_effects"
         android:id="@+id/switch_game_sound_effects"
         android:background="#ffffff"
         android:checked="false"
         android:textSize="20sp"
-        android:layout_below="@+id/switch_game_music"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/switch_game_music"
-        android:layout_alignEnd="@+id/switch_game_music"
-        android:layout_marginTop="15dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/switch_game_music"
+        android:alpha="0.8"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_guide"
         android:id="@+id/button_guide"
         android:layout_below="@+id/switch_game_sound_effects"
-        android:layout_marginTop="15dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="20sp"
         android:onClick="guideMain"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/btn_bg_9patch" />
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_bg_9patch"
+        android:layout_marginBottom="5dp" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_about"
         android:id="@+id/button_about"
         android:textSize="20sp"
         android:layout_below="@+id/button_guide"
         android:layout_alignParentLeft="false"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp"
         android:onClick="aboutMain"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/btn_bg_9patch"
         android:layout_alignParentTop="false"
         android:layout_alignParentBottom="false"
         android:layout_alignWithParentIfMissing="false"
         android:layout_alignParentRight="false"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp" />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/button_terms"
         android:id="@+id/button_terms"
         android:layout_centerVertical="true"
@@ -85,12 +95,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="15dp"
         android:textSize="20sp"
         android:layout_below="@+id/button_about"
         android:onClick="termsMain"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/btn_bg_9patch" />
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_bg_9patch"
+        android:layout_marginBottom="5dp" />
 
 </RelativeLayout>
