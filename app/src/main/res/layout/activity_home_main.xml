@@ -12,50 +12,42 @@
     android:background="@drawable/standin_background">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_settings"
+        android:onClick="settingsMenu"
+        android:background="@drawable/btn_settings_xxhdpi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         android:text="@string/button_play"
         android:id="@+id/button_play"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:onClick="playMenu"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_alignParentStart="false"
         android:background="@drawable/btn_bg_9patch"
-        android:layout_marginTop="150dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:text="@string/button_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/button_store"
-        android:textSize="20sp"
         android:onClick="storeMenu"
-        android:layout_below="@+id/button_play"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:background="@drawable/btn_bg_9patch" />
+        android:layout_alignParentLeft="false"
+        android:background="@drawable/btn_shop_xxhdpi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        style="?android:attr/buttonStyleSmall" /><![CDATA[
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:text="@string/button_settings"
-        android:id="@+id/button_settings"
-        android:textSize="20sp"
-        android:onClick="settingsMenu"
-        android:layout_below="@+id/button_store"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:background="@drawable/btn_bg_9patch" />
+
+
     />
 
+
+]]>
 </RelativeLayout>
