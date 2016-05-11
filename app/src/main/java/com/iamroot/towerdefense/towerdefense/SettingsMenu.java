@@ -4,15 +4,14 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 
 public class SettingsMenu extends AppCompatActivity {
-    public void guideMain(View view)
-    {
+    public void guideMain(View view) {
         Intent intent = new Intent(SettingsMenu.this, GuideMain.class);
         startActivity(intent);
     }
-    public void aboutMain(View view)
-    {
+    public void aboutMain(View view) {
         Intent intent = new Intent(SettingsMenu.this, AboutMain.class);
         startActivity(intent);
     }
@@ -20,10 +19,10 @@ public class SettingsMenu extends AppCompatActivity {
         Intent intent = new Intent(SettingsMenu.this, TermsMain.class);
         startActivity(intent);
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings_menu);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
 }

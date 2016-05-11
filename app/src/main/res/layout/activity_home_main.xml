@@ -10,7 +10,6 @@
     tools:context="com.iamroot.towerdefense.towerdefense.MainActivity"
     android:id="@+id/playbtn"
     android:background="@drawable/standin_background">
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,19 +19,17 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
-
     <Button
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:text="@string/button_play"
-        android:id="@+id/button_play"
-        android:textSize="30sp"
-        android:onClick="playMenu"
-        android:layout_alignParentStart="false"
-        android:background="@drawable/btn_bg_9patch"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp" />
-
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:text="@string/button_play"
+    android:id="@+id/button_play"
+    android:textSize="30sp"
+    android:onClick="playMenu"
+    android:layout_alignParentStart="false"
+    android:background="@drawable/btn_bg_9patch"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="170dp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,12 +39,5 @@
         android:background="@drawable/btn_shop_xxhdpi"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        style="?android:attr/buttonStyleSmall" /><![CDATA[
-
-
-
-    />
-
-
-]]>
+        style="?android:attr/buttonStyleSmall" />
 </RelativeLayout>

@@ -2,14 +2,13 @@
     <string name="app_name">Tower Defense</string>
     <string name="button_play">Play</string>
     <string name="button_store">Store</string>
-    <string name="button_campaign">Campaign</string>
-    <string name="switch_game_music">In Game Music</string>
-    <string name="switch_game_sound_effects">Game Sound Effects</string>
+    <string name="button_gametest">Play Test</string>
+    <string name="switch_game_music">Music ON/OFF</string>
+    <string name="switch_game_sound_effects">Sound Effects ON/OFF</string>
     <string name="button_guide">Guide</string>
     <string name="button_terms">Terms</string>
     <string name="button_about">About</string>
     <string name="text_terms">This is our terms page. Currently no content. Content will be added later.</string>
     <string name="text_about">This is our about page. Currently no content. Content will be added later.</string>
-    <string name="text_guide">This is our guide page. Currently no content. Content will be added later.</string>
-    <string name="button_challenges">Challenges</string>
+    <string name="text_guide">Do nothing, because the game doesn't work yet. Have fun with the menu!</string>
 </resources>
