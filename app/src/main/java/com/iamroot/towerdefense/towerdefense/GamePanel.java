@@ -1,6 +1,7 @@
 package com.iamroot.towerdefense.towerdefense;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -29,6 +30,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     }
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
+        thread = new MainThread(getHolder(), this);
         //starts the game loop
         thread.setRunning(true);
         thread.start();
@@ -37,5 +39,11 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     public boolean onTouchEvent(MotionEvent event) {
         return super.onTouchEvent(event);
     }
-    public void update(){}
+    //Updates game frame by frame
+    public void update(){
+    }
+    @Override
+    public void draw(Canvas canvas) {
+        super.draw(canvas);
+    }
 }

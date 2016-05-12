@@ -1,10 +1,10 @@
 package com.iamroot.towerdefense.towerdefense;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.view.WindowManager;
 
-public class GameTest extends AppCompatActivity {
+public class GameTest extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

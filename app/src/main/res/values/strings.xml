@@ -10,5 +10,5 @@
     <string name="button_about">About</string>
     <string name="text_terms">This is our terms page. Currently no content. Content will be added later.</string>
     <string name="text_about">This is our about page. Currently no content. Content will be added later.</string>
-    <string name="text_guide">Do nothing, because the game doesn't work yet. Have fun with the menu!</string>
+    <string name="text_guide">Do nothing, because the game doesn\'t work yet. Have fun with the menu!</string>
 </resources>
