@@ -9,13 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.iamroot.towerdefense.towerdefense.MainActivity"
     android:id="@+id/playbtn"
-    android:background="@drawable/standin_background">
+    android:background="@drawable/background_menu">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_settings"
         android:onClick="settingsMenu"
-        android:background="@drawable/btn_settings_xxhdpi"
+        android:background="@drawable/btn_settings"
         style="?android:attr/buttonStyleSmall"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
@@ -28,15 +28,14 @@
     android:onClick="playMenu"
     android:layout_alignParentStart="false"
     android:background="@drawable/btn_bg_9patch"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="170dp" />
+        android:layout_centerInParent="true" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_store"
+        android:id="@+id/button_shop"
         android:onClick="storeMenu"
         android:layout_alignParentLeft="false"
-        android:background="@drawable/btn_shop_xxhdpi"
+        android:background="@drawable/btn_shop"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         style="?android:attr/buttonStyleSmall" />
